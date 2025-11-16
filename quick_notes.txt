@@ -12,3 +12,12 @@ Creating the nessecary folders + cmake file and other files.
 Creating the uconf parser which handles the default and any errors that may occur.
 
 Thinking about the logging method and the errors/exception catcher.
+
+Made the uconf_parser_test and now am testing it and figuring out edge cases etc.
+
+Now first making the logging / error system before moving on.
+
+Making the logger.hpp and logger.cpp
+
+Standardizing files naming conventions 
+

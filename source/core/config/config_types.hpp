@@ -19,12 +19,10 @@ namespace ofs::config
         std::string admin_password = "admin123";
         bool require_auth = true;
 
-        // Server
         uint16_t port = 8080u;
         uint16_t max_connections = 20u;
-        uint16_t queue_timeout = 30u;            // seconds
+        uint16_t queue_timeout = 30u;            
 
-        // default ctor uses the inline defaults above
     };
 }
 

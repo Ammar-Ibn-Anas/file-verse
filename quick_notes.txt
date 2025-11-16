@@ -1,4 +1,4 @@
-Just some quick notes:
+Just some quick notes for myself:
 
 Thinking about the document,
 the layout the sizes and memory etc.
@@ -6,3 +6,9 @@ the layout the sizes and memory etc.
 Changed the default.uconf a bit.
 
 Also thought about how the default.uconf or any uconf will affect the omni file.
+
+Creating the nessecary folders + cmake file and other files.
+
+Creating the uconf parser which handles the default and any errors that may occur.
+
+Thinking about the logging method and the errors/exception catcher.

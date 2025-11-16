@@ -1,2 +1,8 @@
 Just some quick notes:
 
+Thinking about the document,
+the layout the sizes and memory etc.
+
+Changed the default.uconf a bit.
+
+Also thought about how the default.uconf or any uconf will affect the omni file.

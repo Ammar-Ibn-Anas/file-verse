@@ -1,5 +1,0 @@
-/home/ammar-anas/Documents/ITU/BSAI24056-Semester-03/DSA/File-Verse-Project/file-verse/build/CMakeFiles/edit_cache.dir
-/home/ammar-anas/Documents/ITU/BSAI24056-Semester-03/DSA/File-Verse-Project/file-verse/build/CMakeFiles/rebuild_cache.dir
-/home/ammar-anas/Documents/ITU/BSAI24056-Semester-03/DSA/File-Verse-Project/file-verse/build/source/CMakeFiles/uconf_parser_test.dir
-/home/ammar-anas/Documents/ITU/BSAI24056-Semester-03/DSA/File-Verse-Project/file-verse/build/source/CMakeFiles/edit_cache.dir
-/home/ammar-anas/Documents/ITU/BSAI24056-Semester-03/DSA/File-Verse-Project/file-verse/build/source/CMakeFiles/rebuild_cache.dir

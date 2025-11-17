@@ -1,5 +1,10 @@
-#include "../core/config/uconf_parser.hpp"
+#include "../include/uconf_parser.hpp"
+#include "../include/logger.hpp" // Keep logger include for general use if needed
+
 #include <iostream>
+#include <string>
+
+// Removed all duplicated parser function implementations (trim, write_uconf, load_uconf_or_create_default, etc.)
 
 int main(int argc, char** argv)
 {
@@ -12,7 +17,8 @@ int main(int argc, char** argv)
     ofs::config::Config cfg;
     std::string err;
     bool ok = ofs::config::load_uconf_or_create_default ( path, cfg, err );
-    if (!ok)
+
+    if ( !ok )
     {
         std::cerr << "Failed to load uconf: " << err << "\n";
         return 1;

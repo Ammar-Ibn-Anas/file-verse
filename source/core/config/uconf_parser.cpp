@@ -1,15 +1,22 @@
-#include "uconf_parser.hpp"
+#include "../../include/uconf_parser.hpp"
+#include "../../include/logger.hpp" // Include logger for function implementations
 #include <fstream>
 #include <sstream>
 #include <algorithm>
 #include <cctype>
 #include <filesystem>
+#include <cstdint> // Required for UINT32_MAX, UINT16_MAX
 
 using namespace std::literals;
 namespace fs = std::filesystem;
 
+// Module definition for logging
+#define MODULE_FULL "config/uconf"
+
 namespace ofs::config
 {
+    // Helper functions moved here, where they are defined only once
+
     static inline std::string trim(const std::string& s)
     {
         size_t a = s.find_first_not_of ( " \t\r\n" );
@@ -42,8 +49,8 @@ namespace ofs::config
              out = true; return true;
         }
         if (s == "false" || s == "0" || s == "no" || s == "n")
-        { 
-            out = false; return true; 
+        {
+            out = false; return true;
         }
         return false;
     }
@@ -57,7 +64,7 @@ namespace ofs::config
             {
                 return false;
             }
-            out = std::stoull ( v, &idx, 10 ); 
+            out = std::stoull ( v, &idx, 10 );
             return idx == v.size();
         }
         catch (...)
@@ -65,7 +72,7 @@ namespace ofs::config
             return false;
         }
     }
-    
+
     static bool parse_u32_dec(const std::string& v, uint32_t& out)
     {
         uint64_t tmp;
@@ -96,6 +103,9 @@ namespace ofs::config
         return true;
     }
 
+    // write_uconf and load_uconf_or_create_default implementations moved here
+    // where they are defined ONLY ONCE.
+
     bool write_uconf(const std::string& path, const Config& cfg, std::string& err)
     {
         try
@@ -107,14 +117,17 @@ namespace ofs::config
                 if ( !fs::create_directories ( dir ) )
                 {
                     err = "unable to create directory: " + dir.string();
+                    ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 201, err, __FILE__, __LINE__);
                     return false;
                 }
             }
 
             std::ofstream os ( path, std::ios::out | std::ios::trunc );
             if ( !os )
-            { 
-                err = "unable to open file for writing: " + path; return false; 
+            {
+                err = "unable to open file for writing: " + path;
+                ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 202, err, __FILE__, __LINE__);
+                return false;
             }
 
             os << "[filesystem]\n";
@@ -136,11 +149,13 @@ namespace ofs::config
             os << "queue_timeout = " << cfg.queue_timeout << "            # Maximum queue wait time (seconds)\n";
 
             os.close();
+            ofs::Logger::get_instance().log(ofs::LogLevel::info, MODULE_FULL, 200, "wrote uconf file: " + path, __FILE__, __LINE__);
             return true;
         }
         catch (const std::exception& e)
         {
             err = std::string ( "exception writing uconf: " ) + e.what();
+            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 203, err, __FILE__, __LINE__);
             return false;
         }
     }
@@ -154,17 +169,20 @@ namespace ofs::config
             if ( !write_uconf ( path, def, err ) )
             {
                 err = "failed to write default uconf: " + err;
+                ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 204, err, __FILE__, __LINE__);
                 return false;
             }
             out_cfg = def;
+            ofs::Logger::get_instance().log(ofs::LogLevel::info, MODULE_FULL, 210, "created default uconf: " + path, __FILE__, __LINE__);
             return true;
         }
 
         std::ifstream is ( path );
         if ( !is )
-        { 
-            err = "unable to open uconf file: " + path; 
-            return false; 
+        {
+            err = "unable to open uconf file: " + path;
+            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 205, err, __FILE__, __LINE__);
+            return false;
         }
 
         Config cfg = out_cfg;
@@ -197,6 +215,7 @@ namespace ofs::config
             size_t eq = t.find ( '=' );
             if (eq == std::string::npos)
             {
+                ofs::Logger::get_instance().log(ofs::LogLevel::warn, MODULE_FULL, 301, "ignored malformed line " + std::to_string(line_no), __FILE__, __LINE__);
                 continue; // ignore malformed line
             }
             std::string key = trim ( t.substr ( 0, eq ) );
@@ -227,51 +246,56 @@ namespace ofs::config
                 {
                     if (k == "total_size")
                     {
-                        uint64_t tmp; 
-                        if ( !parse_u64_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad total_size at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint64_t tmp;
+                        if ( !parse_u64_dec ( sval, tmp ) )
+                        {
+                            err = "bad total_size at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 401, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.total_size = tmp;
                     }
                     else if (k == "header_size")
                     {
-                        uint32_t tmp; 
-                        if ( !parse_u32_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad header_size at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint32_t tmp;
+                        if ( !parse_u32_dec ( sval, tmp ) )
+                        {
+                            err = "bad header_size at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 402, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.header_size = tmp;
                     }
                     else if (k == "block_size")
                     {
-                        uint32_t tmp; 
-                        if ( !parse_u32_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad block_size at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint32_t tmp;
+                        if ( !parse_u32_dec ( sval, tmp ) )
+                        {
+                            err = "bad block_size at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 403, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.block_size = tmp;
                     }
                     else if (k == "max_files")
                     {
-                        uint32_t tmp; 
-                        if ( !parse_u32_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad max_files at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint32_t tmp;
+                        if ( !parse_u32_dec ( sval, tmp ) )
+                        {
+                            err = "bad max_files at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 404, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.max_files = tmp;
                     }
                     else if (k == "max_filename_length")
                     {
-                        uint32_t tmp; 
-                        if ( !parse_u32_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad max_filename_length at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint32_t tmp;
+                        if ( !parse_u32_dec ( sval, tmp ) )
+                        {
+                            err = "bad max_filename_length at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 405, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.max_filename_length = tmp;
                     }
@@ -280,11 +304,12 @@ namespace ofs::config
                 {
                     if (k == "max_users")
                     {
-                        uint32_t tmp; 
-                        if ( !parse_u32_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad max_users at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint32_t tmp;
+                        if ( !parse_u32_dec ( sval, tmp ) )
+                        {
+                            err = "bad max_users at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 406, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.max_users = tmp;
                     }
@@ -298,11 +323,12 @@ namespace ofs::config
                     }
                     else if (k == "require_auth")
                     {
-                        bool b; 
-                        if ( !parse_bool ( sval, b ) ) 
-                        { 
-                            err = "bad require_auth at line " + std::to_string ( line_no ); 
-                            return false; 
+                        bool b;
+                        if ( !parse_bool ( sval, b ) )
+                        {
+                            err = "bad require_auth at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 407, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.require_auth = b;
                     }
@@ -311,47 +337,53 @@ namespace ofs::config
                 {
                     if (k == "port")
                     {
-                        uint16_t tmp; 
-                        if ( !parse_u16_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad port at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint16_t tmp;
+                        if ( !parse_u16_dec ( sval, tmp ) )
+                        {
+                            err = "bad port at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 408, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.port = tmp;
                     }
                     else if (k == "max_connections")
                     {
-                        uint16_t tmp; 
-                        if ( !parse_u16_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad max_connections at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint16_t tmp;
+                        if ( !parse_u16_dec ( sval, tmp ) )
+                        {
+                            err = "bad max_connections at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 409, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.max_connections = tmp;
                     }
                     else if (k == "queue_timeout")
                     {
-                        uint16_t tmp; 
-                        if ( !parse_u16_dec ( sval, tmp ) ) 
-                        { 
-                            err = "bad queue_timeout at line " + std::to_string ( line_no ); 
-                            return false; 
+                        uint16_t tmp;
+                        if ( !parse_u16_dec ( sval, tmp ) )
+                        {
+                            err = "bad queue_timeout at line " + std::to_string ( line_no );
+                            ofs::Logger::get_instance().log(ofs::LogLevel::error, MODULE_FULL, 410, err, __FILE__, line_no);
+                            return false;
                         }
                         cfg.queue_timeout = tmp;
                     }
                 }
                 else
                 {
+                    ofs::Logger::get_instance().log(ofs::LogLevel::warn, MODULE_FULL, 302, "ignored unknown section: " + current_section, __FILE__, __LINE__);
                 }
             }
             catch (const std::exception& ex)
             {
                 err = "exception parsing uconf at line " + std::to_string ( line_no ) + ": " + ex.what();
+                ofs::Logger::get_instance().log(ofs::LogLevel::fatal, MODULE_FULL, 500, err, __FILE__, line_no);
                 return false;
             }
-        } 
+        }
 
         out_cfg = cfg;
+        ofs::Logger::get_instance().log(ofs::LogLevel::info, MODULE_FULL, 211, "loaded uconf file: " + path, __FILE__, __LINE__);
         return true;
     }
 }

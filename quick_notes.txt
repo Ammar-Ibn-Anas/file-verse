@@ -1,7 +1,6 @@
 Just some quick notes for myself:
 
-Thinking about the document,
-the layout the sizes and memory etc.
+Thinking about the document, the layout the sizes and memory etc.
 
 Changed the default.uconf a bit.
 
@@ -21,3 +20,8 @@ Making the logger.hpp and logger.cpp
 
 Standardizing files naming conventions 
 
+Creating log macros etc.
+
+Removing the cmakes sticking to terminal compiling for now.
+
+Chaning the folder and files layout.

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/uconf_parser_test.dir/tests/uconf_parser_test.cpp.o CMakeFiles/uconf_parser_test.dir/core/config/uconf_parser.cpp.o -o ../bin/uconf_parser_test 

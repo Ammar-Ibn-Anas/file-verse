@@ -25,7 +25,7 @@ private:
     std::ofstream file_stream_;
     std::mutex mtx_;
     std::string log_file_path_;
-    static constexpr size_t MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
+    static constexpr size_t MAX_FILE_SIZE_BYTES = 1024 * 1024;
     std::string app_identifier_;
     int process_id_;
 

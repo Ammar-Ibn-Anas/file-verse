@@ -37,3 +37,16 @@ Fixed the dual writing, now adding tracking for the user / application.
 Made the max log file size constant.
 
 Logger is working perfectly yay.
+
+Moving onto remaking the uconf parser.
+
+Block size should be a power of 2 like 512 1024 etc plus the total_size must be large enough to contain all the metadata plus be a multiple of block size
+metadeta obviously must leave space for the actual storage, actual storage must be total_size / block_size.
+
+Defining the logging ettiqute.
+
+Thinking about the multiple user scenarios.
+
+Implementing User System.
+
+Thinking about adding passwords etc.

@@ -1,5 +1,6 @@
 #ifndef LOGGER_HPP
 #define LOGGER_HPP
+
 #include <string>
 #include <fstream>
 #include <mutex>
@@ -11,11 +12,11 @@ namespace ofs
 
 enum class LogLevel
 {
-    debug, // Renamed to snake_case
-    info,  // Renamed to snake_case
-    warn,  // Renamed to snake_case
-    error, // Renamed to snake_case
-    fatal  // Renamed to snake_case
+    debug, 
+    info,  
+    warn,  
+    error, 
+    fatal  
 };
 
 class Logger
@@ -24,14 +25,17 @@ private:
     std::ofstream file_stream_;
     std::mutex mtx_;
     std::string log_file_path_;
-    size_t max_file_size_bytes_;
+    static constexpr size_t MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
+    std::string app_identifier_;
+    int process_id_;
 
     Logger();
     void rotate_if_needed();
+    bool file_was_rotated();
     std::string get_timestamp_utc();
     std::string level_to_string(LogLevel level);
+    void initialize_app_identifier();
 
-    // Internal method to handle the actual write operation
     void write_internal(LogLevel level,
                         const std::string& module,
                         int code,
@@ -40,12 +44,14 @@ private:
                         int line);
 
 public:
+
+    ~Logger();
+
     static Logger& get_instance();
 
     void set_log_file(const std::string& path);
-    void set_max_file_size(size_t bytes);
+    void set_app_name(const std::string& name);
 
-    // Public API, redirects to internal implementation
     void log(LogLevel level,
              const std::string& module,
              int code,
@@ -60,6 +66,6 @@ public:
     Logger& operator=(const Logger&) = delete;
 };
 
-}
+} // namespace ofs
 
 #endif // LOGGER_HPP

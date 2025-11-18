@@ -25,3 +25,15 @@ Creating log macros etc.
 Removing the cmakes sticking to terminal compiling for now.
 
 Chaning the folder and files layout.
+
+Finalizing the logger.
+
+Messing around with the logger.
+
+Fixing the dual writing conflict.
+
+Fixed the dual writing, now adding tracking for the user / application.
+
+Made the max log file size constant.
+
+Logger is working perfectly yay.

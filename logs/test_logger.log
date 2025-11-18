@@ -1,0 +1,460 @@
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:35:43Z level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=138
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:42:06Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:42:08Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=120 msg="Interactive error demonstration started." file="source/tests/logger_test.cpp" line=54
+2025-11-18T00:42:26Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=121 msg="Division successful. Result=1" file="source/tests/logger_test.cpp" line=89
+2025-11-18T00:42:26Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=120 msg="Interactive error demonstration started." file="source/tests/logger_test.cpp" line=54
+2025-11-18T00:42:27Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=121 msg="Division successful. Result=1" file="source/tests/logger_test.cpp" line=89
+2025-11-18T00:42:28Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=120 msg="Interactive error demonstration started." file="source/tests/logger_test.cpp" line=54
+2025-11-18T00:42:28Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=121 msg="Division successful. Result=1" file="source/tests/logger_test.cpp" line=89
+2025-11-18T00:42:40Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=120 msg="Interactive error demonstration started." file="source/tests/logger_test.cpp" line=54
+2025-11-18T00:42:41Z app="logger_test" pid=49240 level=INFO module=LOGGER_TEST code=121 msg="Division successful. Result=1" file="source/tests/logger_test.cpp" line=89
+2025-11-18T00:42:42Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:42:42Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:42:43Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:42:43Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:42:43Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:42:44Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:12Z app="logger_test" pid=49240 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:39Z app="logger_test" pid=49475 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:43:44Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:44Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:44Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:45Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:46Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:51Z app="logger_test" pid=49506 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:43:52Z app="logger_test" pid=49506 level=FATAL module=LOGGER_TEST code=999 msg="User-triggered fatal error." file="source/tests/logger_test.cpp" line=142
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:54Z app="logger_test" pid=49530 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:43:55Z app="logger_test" pid=49530 level=FATAL module=LOGGER_TEST code=999 msg="User-triggered fatal error." file="source/tests/logger_test.cpp" line=142
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:43:57Z app="logger_test" pid=49547 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:43:58Z app="logger_test" pid=49547 level=FATAL module=LOGGER_TEST code=999 msg="User-triggered fatal error." file="source/tests/logger_test.cpp" line=142
+2025-11-18T00:44:00Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:01Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:14Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:15Z app="logger_test" pid=49621 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:19Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:20Z app="logger_test" pid=49631 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:24Z app="logger_test" pid=49639 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=10 msg="Logger initialized with custom settings." file="source/tests/logger_test.cpp" line=106
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=100 msg="Starting basic logging test." file="source/tests/logger_test.cpp" line=18
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=DEBUG module=LOGGER_TEST code=101 msg="A debug message." file="source/tests/logger_test.cpp" line=19
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=WARN module=LOGGER_TEST code=200 msg="A potential issue observed." file="source/tests/logger_test.cpp" line=20
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=ERROR module=LOGGER_TEST code=300 msg="A non-critical operation failed." file="source/tests/logger_test.cpp" line=21
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=102 msg="Basic logging test complete." file="source/tests/logger_test.cpp" line=22
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=110 msg="Starting multithreaded logging test." file="source/tests/logger_test.cpp" line=37
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 0" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 1" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 2" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 3" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=153 msg="Thread 3 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=154 msg="Thread 4 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=150 msg="Thread 0 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=152 msg="Thread 2 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=151 msg="Thread 1 writing log entry 4" file="source/tests/logger_test.cpp" line=30
+2025-11-18T00:44:29Z app="logger_test" pid=49662 level=INFO module=LOGGER_TEST code=111 msg="Multithreaded logging test complete." file="source/tests/logger_test.cpp" line=49
+2025-11-18T00:44:38Z app="logger_test" pid=49662 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:40Z app="logger_test" pid=49639 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:42Z app="logger_test" pid=49631 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:44Z app="logger_test" pid=49621 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137
+2025-11-18T00:44:47Z app="logger_test" pid=49475 level=WARN module=LOGGER_TEST code=210 msg="User-triggered warning." file="source/tests/logger_test.cpp" line=137

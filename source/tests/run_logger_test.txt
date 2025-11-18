@@ -1,0 +1,12 @@
+# 1. Compile the logger implementation and the test file
+# The -I flag tells the compiler where to find the included headers (logger.hpp, log_macros.hpp)
+# The -pthread flag is required for multithreading (std::thread)
+g++ -std=c++17 \
+    source/tests/logger_test.cpp \
+    source/core/logging/logger.cpp \
+    -I source/include \
+    -o bin/logger_test \
+    -pthread
+
+# 2. Run the executable
+./logger_test

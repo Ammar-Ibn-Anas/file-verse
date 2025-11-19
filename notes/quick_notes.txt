@@ -50,3 +50,7 @@ Thinking about the multiple user scenarios.
 Implementing User System.
 
 Thinking about adding passwords etc.
+
+Adding passwords.
+
+Saving for now, gonna finish implementation when I get back home.
